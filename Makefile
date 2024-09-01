@@ -7,7 +7,7 @@
 SRC = src
 BUILD = build
 OUTPUT = app
-INCLUDE = /Users/aaron/Repos/github/hello-c/include/
+INCLUDE = ./include
 
 #
 # compiler options
