@@ -5,8 +5,9 @@
 // Main etry function for the program
 int main()
 {
-    printf("Hello, World! This is a native C program compiled on the command line.\n");
-    printf("Calling service...\n");
+    
+    char* message = helloWorld();
+    printf("%s\n", message);
 
     time_t currentTime = time(NULL);
     if(currentTime != (time_t)(-1))
