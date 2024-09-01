@@ -1,0 +1,23 @@
+{
+    "makefile.makefilePath": "Makefile",    
+    "makefile.configurations": [
+        {
+            "name": "Default",
+            "makeArgs": []
+        },
+        {
+            "name": "Print make version",
+            "makeArgs": ["--version"]
+        }
+    ],
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "binaryPath": "${workspaceFolder}/build/app",
+            "binaryArgs": [],
+            "MIMode": "lldb"
+        }
+    ], 
+    "makefile.buildLog": "",
+    "makefile.loggingLevel": "Normal"   
+}
